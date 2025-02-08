@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-container {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul.menu li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+nav ul.menu li:last-child {
+    border-right: none;
+}
+
+nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+nav ul.menu li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#Inicio {
+    background-color: #000000; /* Verde Claro */
+}
+
+#sobre {
+    background-color: #000000; /* Azul Claro */
+}
+
+#projetos {
+    background-color: #000000; /* Amarelo Claro */
+}
+
+#contato {
+    background-color: #000000; /* Coral Claro */
+}
+
+.projeto {
+    margin-bottom: 20px;
+    color: #ffffff;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color:#ffffff;
+    
+}
+
+.imagem-direita {
+    float: right;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.imagem {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: #fff;
+
+    
+}
+
+.projeto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FC0037;
+}
+
+.Inicio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Inicio-texto {
+    max-width: 80%;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    width: 50%;
+    left: 23%;
+    position: relative;
+}
+
+.ramon{
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.imagem-paragrafo {
+    display: flex;
+    align-items: center;
+}
+
+.imagem-paragrafo img {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.imagem-paragrafo p {
+    margin-left: 20px;
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+
+.social-buttons a:hover {
+    background-color: #0056b3;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.sobre-texto {
+    max-width: 80%;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    width: 50%;
+    right: 7%;
+    position: relative;
+}
+
+.ramon-direito{
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 3%;
+    top: 40px;
+}
+
+
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+}
+
+.ferramenta{
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.p1{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

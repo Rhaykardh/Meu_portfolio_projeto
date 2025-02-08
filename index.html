@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav class="menu-container">
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Seção Home -->
+    <section id="Inicio">
+        <div class="Inicio-container">
+            <div class="Inicio-texto">
+                <h1>Bem vindo ao meu Projeto de Curso!</h1>
+            </div>
+            <img src="img/ramon.jpg" alt="ramon" class="ramon">
+        </div>
+    </section>
+   
+    
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <div class="sobre-container">
+            <img src="img/foto_perfil.jpeg" alt="ramon" class="ramon-direito">
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Me chamo Ramon Rhaykardh, tenho 20 anos e estou estudando como um aprendiz de Progamação(JavaScript, Html, Css, e Python) Além disso tenho experiencia como Designer Gráfico e pilotagens de drone aéreo para realização de videos e filmagens.</p>
+            </div>
+        </div>
+     <!-- Seção de Projetos -->
+    <section id="projetos">
+        <h1>Meus projetos</h1>               
+        <h2>Veja algumas das experiencias, atividades e serviços que ja realizei.</h2>
+        <div class="projetos">
+            <div class="projeto">
+                <img src="img/game.png" class="p1" alt="Projeto 1">
+                <h3>Projeto Pixel Game</h3>
+                <p>O projeto foi realizado através do curso de python onde a tendência era criar um game simples utilizando os códigos de python</p><a href="https://github.com/Rhaykardh/Pixel-game">Pixel Game</a>
+                <img src="img/python.png" class="ferramenta" alt="Projeto 1">
+            </div>
+            <div class="projeto">
+                <img src="img/behance.png" class="p1" alt="Projeto 2">
+                <h3>Projetos Photoshop</h3>
+                <p> Os projetos foram realizados através da ferramenta Photoshop com a tendência de criar belas artes e designes bastante chamativos, alguns deles ja foram usadas para a realização de serviços. Dê uma olhada! </p><a href="https://www.behance.net/artgraphic76">Projetos de Desing Gráfico</a>
+                <img src="img/photo.png" class="ferramenta" alt="Projeto 2">
+            </div>
+            <div class="projeto">
+                <img src="img/Paisagem.png" class="p1" alt="Projeto 3">
+                <h3>Filmagens Aéreas com Drone</h3>
+                <p>as Filmagens foram realizados através do drone DJI mini 2 com o intuito de capturar belas paisagens e vistas exuberantes, onde é muito utilizado para serviços cinematográficos no municipio de Icapui!</p><a href="https://www.instagram.com/ramon_rhaykarmelo/">Filmagens com Drone</a>
+                <img src="img/dji.jpg" class="ferramenta" alt="Projeto 3">
+            </div>
+            <div class="projeto">
+                <img src="img/Portfolio.png" class="p1" alt="Projeto 4">
+                <h3>Atividade do curso</h3>
+                <p>Essa foi uma atividade praticada no curso de Programação(Html, Css, JavaScript). Site modelo para desenvolvimento de portfólio </p><a href="https://github.com/Rhaykardh/modelo_portfolio">Atividade do Curso</a>
+                <img src="img/liguas.png" class="ferramenta" alt="Projeto 4">
+            </div>
+        </div>
+    </section>
+     <!-- Seção de agradecimento e contato -->
+    <section id="contato">
+        <h2 style= "font-size:32px;">Agradecimento e Contato</h2>
+        <p style="color:#ffffff; text-align: center;"> Gostaria de agradecer a todos do Curso de Programação pelo apoio e esforço que teve para ajudar e ensinar os seus alunos. Se deseja entrar em contato, use o formulário abaixo.</p>
+        <!-- Faça seu cadastro em https://formspree.io/-->
+        <form action="https://formspree.io/f/meoezolb" method="post">
+            <label for="nome" style="color:#ffffff;">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email" style="color:#ffffff;">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem" style="color:#ffffff;">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit" style="color:#ffffff;">Enviar</button>
+        </form>
+        
+    </section>
+    <div class="social-buttons">
+        <a href="https://api.whatsapp.com/send?phone=+5588982191947&text=Olá como vai" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:rhaykardhramon@gmail.com" target="_blank">Email</a>
+        <a href="tel:+5588982191947">Call</a>
+            
+    <footer>
+        <p>&copy; Portfolio criado em fevereiro de 2025.</p>
+    </footer>
+    <!--<script src="js/script.js"></script-->
+</body>
+</html>
