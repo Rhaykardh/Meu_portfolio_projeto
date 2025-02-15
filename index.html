@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <h1>Meu Portfólio</h1>
+        <h1>Ramon Dev</h1>
         <nav class="menu-container">
             <ul class="menu">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -24,9 +24,16 @@
     <section id="Inicio">
         <div class="Inicio-container">
             <div class="Inicio-texto">
-                <h1>Bem vindo ao meu Projeto de Curso!</h1>
+                <p class="msg-inicio" left="10px">Desenvolvedor Web em Desenvolvimento</p>
+                <h1>Bem vindo ao meu</h1> <h1 style="line-height: 0em;">Projeto de Curso!</h1>
             </div>
             <img src="img/ramon.jpg" alt="ramon" class="ramon">
+        </div>
+        <div class="linkagem">
+            <div class="link-container">
+                <button onclick="abrirLink('https://github.com/Rhaykardh/')" class="link-item">GitHub</button>
+                <button onclick="abrirLink('pdf/curriculo.pdf')" class="link-item">Baixar Currículo</button>
+            </div>
         </div>
     </section>
    
@@ -36,13 +43,13 @@
         <div class="sobre-container">
             <img src="img/foto_perfil.jpeg" alt="ramon" class="ramon-direito">
             <div class="sobre-texto">
-                <h2>Sobre Mim</h2>
+                <h2>Um Pouco Sobre Mim</h2>
                 <p>Olá! Me chamo Ramon Rhaykardh, tenho 20 anos e estou estudando como um aprendiz de Progamação(JavaScript, Html, Css, e Python) Além disso tenho experiencia como Designer Gráfico e pilotagens de drone aéreo para realização de videos e filmagens.</p>
             </div>
         </div>
      <!-- Seção de Projetos -->
     <section id="projetos">
-        <h1>Meus projetos</h1>               
+        <h2>Meus projetos</h2>               
         <h2>Veja algumas das experiencias, atividades e serviços que ja realizei.</h2>
         <div class="projetos">
             <div class="projeto">
@@ -60,7 +67,7 @@
             <div class="projeto">
                 <img src="img/Paisagem.png" class="p1" alt="Projeto 3">
                 <h3>Filmagens Aéreas com Drone</h3>
-                <p>as Filmagens foram realizados através do drone DJI mini 2 com o intuito de capturar belas paisagens e vistas exuberantes, onde é muito utilizado para serviços cinematográficos no municipio de Icapui!</p><a href="https://www.instagram.com/ramon_rhaykarmelo/">Filmagens com Drone</a>
+                <p style="font-size: auto;">as Filmagens foram realizados através do drone DJI mini 2 com o intuito de capturar belas paisagens e vistas exuberantes, onde é muito utilizado para serviços cinematográficos no municipio de Icapui!</p><a href="https://www.instagram.com/ramon_rhaykarmelo/">Filmagens com Drone</a>
                 <img src="img/dji.jpg" class="ferramenta" alt="Projeto 3">
             </div>
             <div class="projeto">
@@ -85,16 +92,20 @@
             <textarea id="mensagem" name="mensagem" required></textarea>
             <button type="submit" style="color:#ffffff;">Enviar</button>
         </form>
-        
-    </section>
+        </section>
+   
     <div class="social-buttons">
         <a href="https://api.whatsapp.com/send?phone=+5588982191947&text=Olá como vai" target="_blank"><i class="fab fa-whatsapp"></i></a>
         <a href="mailto:rhaykardhramon@gmail.com" target="_blank">Email</a>
         <a href="tel:+5588982191947">Call</a>
-            
+    </div>   
     <footer>
         <p>&copy; Portfolio criado em fevereiro de 2025.</p>
     </footer>
-    <!--<script src="js/script.js"></script-->
+    <script>
+        function abrirLink(url){
+            window.location.href=url;
+        }
+    </script>
 </body>
 </html>
